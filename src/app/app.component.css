@@ -1,0 +1,83 @@
+.header{
+  display: flex;
+  justify-content: center;
+}
+.nav{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.makespace{
+  margin: 12px;
+}
+
+.font-size{
+  font-size: 20px;
+
+}
+.black-font{
+  color: #000000;
+}
+.blue-font{
+  color: rgb(40, 180, 226);
+}
+.font-size-mini{
+  font-size: 16px;
+}
+
+.removeDot{
+  list-style: none;
+}
+
+
+:host {
+  display: block;
+  margin-top: 1rem;
+}
+
+.open-close-container {
+  border: 1px solid #dddddd;
+  margin-top: 1em;
+  padding: 20px 20px 0px 20px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+[nz-button] {
+  margin-right: 8px;
+  margin-bottom: 12px;
+}
+
+.carousel
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center ;
+  align-items: center;
+}
+
+
+.carousel-box {
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+.carousel-mini-website{
+    display: inline;
+}
+
+
+.section2{
+  background-color: black;
+  height: 1000px;
+  width: 100%;
+}
+
+.carousel-image{
+
+}

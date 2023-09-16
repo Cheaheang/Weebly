@@ -1,0 +1,65 @@
+<div ngClass="header">
+<nav ngClass="nav">
+  <div>
+    <a ngClass="makespace font-size black-font" routerLink="/homePage">Website</a>
+    <a ngClass="makespace font-size black-font" routerLink="/Online-Stores">Online Stores</a>
+     <a ngClass="makespace font-size black-font" routerLink="/Pricing">Pricing</a>
+     <a ngClass="makespace font-size black-font" nz-dropdown [nzDropdownMenu]="menu">
+      More
+      <span nz-icon nzType="down"></span>
+    </a>
+    <nz-dropdown-menu #menu="nzDropdownMenu">
+      <ul ngClass="removeDot" nz-menu nzSelectable>
+        <a ngClass="font-size-mini" routerLink="/Guides"><li nz-menu-item>Guides</li></a>
+        <a ngClass="font-size-mini" routerLink="/Marketing"> <li  nz-menu-item>Marketing</li></a>
+        <a ngClass="font-size-mini" routerLink="/Themes"><li  nz-menu-item>Themes</li></a>
+        <a ngClass="font-size-mini" routerLink="/Features"><li  nz-menu-item  >Features</li></a>
+        <a ngClass="font-size-mini" routerLink="/Weebly-blog"><li  nz-menu-item  >Weebly Blog</li></a>
+        <a ngClass="font-size-mini" routerLink="/Inspiration-center"><li  nz-menu-item  >Inspiration Center</li></a>
+        <a ngClass="font-size-mini" routerLink="/App-center"><li  nz-menu-item  >App Center</li></a>
+        <a ngClass="font-size-mini" routerLink="/SEO-Guide" ><li nz-menu-item  >SEO Guides</li></a>
+        <a ngClass="font-size-mini" routerLink="/Help" ><li nz-menu-item  >Help</li></a>
+      </ul>
+    </nz-dropdown-menu>
+  </div>
+
+  <div>
+    <img src="../assets/image/weebly_logo.jpg" alt="" priority width="230px">
+  </div>
+
+
+  <div>
+    <a ngClass="makespace font-size black-font" routerLink="login">Log In</a>
+    <a ngClass="makespace font-size blue-font" routerLink="signup">Sign Up</a>
+  </div>
+</nav>
+</div>
+   <router-outlet ngClass=""></router-outlet>
+
+
+<div [@flyInOut] ngClass="carousel">
+  <div ngClass="carousel-box">
+    <h1>
+      Your idea matters. <br>
+      Make a website.
+    </h1>
+
+    <button nz-button nzSize="small" nzType="primary" >Primary Button</button>
+  </div>
+  <div class="carousel-image">
+    <img src="../assets/image/weebly_woman.jpg" alt="">
+  </div>
+  <div  class="carousel-mini-website">
+    <img   src="../assets/image/weebly_picture.jpg" alt="">
+  </div>
+</div>
+
+
+<div ngClass="section2">
+  <div>
+    <p>WEBSITES THEMES</p>
+    <p>
+
+    </p>
+  </div>
+</div>
